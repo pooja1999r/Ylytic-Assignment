@@ -1,0 +1,153 @@
+
+.card{
+    /* border-bottom-right-radius:30px ;
+    border-bottom-left-radius:30px ;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ; */
+    border-radius: 30px;
+    
+}
+
+.card1{
+   margin-top: 10px;
+}
+.card-common{
+    margin-bottom: 10px;
+    padding: 0px;
+}
+.card-heade:first-child{
+    border-bottom-right-radius:0px ;
+    border-bottom-left-radius:0px ;
+    border-top-left-radius:30px ;
+    border-top-right-radius:30px ;
+}
+.card-heade{
+    margin: 1px;
+    padding:10px;
+    background-color: skyblue;
+    display: flex;
+   /* background-color: skyblue; */
+}
+.header-right{
+    
+    
+    padding:10px ;
+}
+
+.header-left{
+    padding:10px 10px 10px 20px;
+}
+
+
+.list-item{
+    padding:7px;
+}
+.colored{
+    color: springgreen;
+}
+.line{
+    display: flex;
+    padding: 10px;
+}
+
+.light{
+    font-weight: lighter;
+    font-size: small;
+}
+.center-card{
+    align-items: center;
+}
+.card-margin{
+    padding-left: 0px;
+}
+.num{
+    margin:0px 0px 0px 0px ;
+    padding:0px 0px 0px 30px ;
+}
+.num-para{
+    margin:7px 0px 0px 10px ;
+    padding:0px 0px 0px 30px ;
+}
+.num1{
+    padding:0px 0px 0px 30px ;
+}
+.num-para1{
+    padding:0px 0px 0px 30px ;
+    margin:7px 0px 0px 10px ;
+}
+
+
+@media (max-width:420px){
+    num{
+        margin:0px 0px 0px 0px ;
+        padding:0px 0px 0px 10px ;
+    }
+    .num-para{
+        margin:7px 0px 0px 0px ;
+        padding:0px 0px 0px 0px ;
+    }
+    .num1{
+        padding:0px 0px 0px 10px ;
+    }
+    .num-para1{
+        padding:0px 0px 0px 10px ;
+        margin:7px 0px 0px 10px ;
+    }
+    .header-right{
+        padding:10px ;
+    }
+    
+    .header-left{
+        padding:10px 10px 10px 10px;
+    }
+    .line{
+        
+        padding: 0px;
+    }
+     
+} 
+
+.num3{
+    padding:0px 0px 0px 70px;
+}
+.ctr{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom:0px ;
+}
+.yellow{
+    color: yellow;
+
+    margin: 5px;
+}
+.correct{
+    color: rgb(26, 141, 130);
+
+    margin: 5px;
+    /* color: white;
+    border-radius: 100px; */
+}
+.error{
+
+    margin: 5px;
+}
+.red{
+    color: red;
+}
+.color-red{
+    
+    color: red;
+}
+.white{
+   border-radius: 10000px;
+   margin: 5px;
+}
+.clock{
+
+    margin: 2px;
+}
+@media (max-width:400px){
+    .display-none{
+        display: none;
+    }
+}

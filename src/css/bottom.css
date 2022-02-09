@@ -1,0 +1,25 @@
+
+.message{
+    color: green;
+    margin: 0px 10px 0px 10px;
+}
+.thumb{
+    color: sandybrown;
+    margin: 0px 10px 0px 10px;
+}
+.ylyti{
+    color: seagreen;
+    margin: 10px;
+}
+.yellow-span{
+   color: rgb(207, 199, 89);
+}
+.dots{
+    color: skyblue;
+}
+
+@media (max-width:400px) {
+    .bottom-row{
+       text-align: center;
+    }
+}
